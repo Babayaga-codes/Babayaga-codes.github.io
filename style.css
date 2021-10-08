@@ -188,7 +188,7 @@ section .title::after {
     background: url("images/MBSXE4000.JPG") no-repeat;
     height: 100vh;
     color: navy;
-    min-height: 100px;
+    min-height: 20px;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', Verdana, Geneva, Tahoma, sans-serif;
@@ -554,16 +554,4 @@ section .title::after {
 .right form .button-area button:hover {
     color: black;
     background: none;
-}
-
-@media only screen and (.max-width:600px) {
-    img#beast {
-        width: 100%;
-        margin: 0;
-        padding;
-        0;
-    }
-}
-
-
 }
