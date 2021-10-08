@@ -39,7 +39,7 @@ section {
 }
 
 .max-width {
-    max-width: 1300px;
+    max-width: 600px;
     padding: 0 80px;
     margin: auto;
 }
@@ -188,7 +188,7 @@ section .title::after {
     background: url("images/MBSXE4000.JPG") no-repeat;
     height: 100vh;
     color: navy;
-    min-height: 20px;
+    min-height: 600px;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', Verdana, Geneva, Tahoma, sans-serif;
