@@ -11,6 +11,10 @@
 html {
     scroll-behavior: smooth;
     @media screen and (max-width: 480px)
+    /*tablet*/
+    div {
+        background-color: green;
+    }
 }
 
 
