@@ -183,6 +183,8 @@ section .title::after {
 
 /* home section styling */
 
+@media (min-width: 320px) and (max-width: 480px) {}
+
 .home {
     display: flex;
     background: url("images/MBSXE4000.JPG") no-repeat;
