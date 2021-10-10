@@ -183,8 +183,6 @@ section .title::after {
 
 /* home section styling */
 
-@media (min-width: 100%) and (max-width: 100px) {}
-
 .home {
     display: flex;
     background: url("images/MBSXE4000.JPG") no-repeat;
@@ -192,7 +190,7 @@ section .title::after {
     color: navy;
     min-height: 400px;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     font-family: 'Ubuntu', Verdana, Geneva, Tahoma, sans-serif;
 }
 
