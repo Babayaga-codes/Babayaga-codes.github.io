@@ -249,6 +249,7 @@ section .title::after {
 }
 
 .about .about-content .left img {
+    @media only screen and (min-width: 481px) and (max-width: 768px) {}
     height: 400px;
     width: 400px;
     object-fit: cover;
@@ -260,7 +261,7 @@ section .title::after {
 }
 
 .about .about-content .right .text {
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
 }
