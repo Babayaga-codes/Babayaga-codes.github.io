@@ -184,8 +184,9 @@ section .title::after {
 /* home section styling */
 
 .home {
-    background: url("images/MBSXE4000.JPG") no-repeat;
-    height: 100vh;
+    display: flex;
+    background: url("images/MBSXE4000.JPG") top center;
+    height: 10vh;
     color: navy;
     min-height: 400px;
     background-size: cover;
