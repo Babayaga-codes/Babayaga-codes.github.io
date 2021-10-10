@@ -249,9 +249,9 @@ section .title::after {
 }
 
 .about .about-content .left img {
-    height: 100px;
-    width: 100px;
-    object-fit: cover;
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
     border-radius: 6px;
 }
 
