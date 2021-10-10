@@ -184,7 +184,6 @@ section .title::after {
 /* home section styling */
 
 .home {
-    @media screen and (max-width: $desktop) and (min-width: $tablet) {}
     display: flex;
     background: url("images/MBSXE4000.JPG") no-repeat;
     height: 100vh;
