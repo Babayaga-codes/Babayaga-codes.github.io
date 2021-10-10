@@ -183,7 +183,7 @@ section .title::after {
 
 /* home section styling */
 
-@media (min-width: 320px) and (max-width: 480px) {}
+@media (min-width: 100%) and (max-width: 100px) {}
 
 .home {
     display: flex;
