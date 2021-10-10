@@ -249,8 +249,8 @@ section .title::after {
 }
 
 .about .about-content .left img {
-    min-height: 400px;
-    min-width: 400px;
+    height: 400px;
+    width: 400px;
     object-fit: cover;
     border-radius: 6px;
 }
