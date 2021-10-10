@@ -256,11 +256,11 @@ section .title::after {
 }
 
 .about .about-content .right {
-    width: 20%;
+    width: 55%;
 }
 
 .about .about-content .right .text {
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 600;
     margin-bottom: 10px;
 }
