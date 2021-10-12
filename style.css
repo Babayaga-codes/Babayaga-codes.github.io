@@ -185,7 +185,7 @@ section .title::after {
 
 .home {
     display: flex;
-    background: url("images/hg.JPG") no-repeat;
+    background: url("images/hero-bg.jpg") no-repeat;
     height: 100vh;
     color: navy;
     min-height: 400px;
@@ -683,16 +683,5 @@ section .title::after {
         width: 35px;
         font-size: 23px;
         line-height: 38px;
-    }
-}
-
-@media only screen and (max-device-width:480px) {
-    div#wrapper {
-        width: 400px;
-    }
-    div#header {
-        background-image: url(images/hero-bg.jpg);
-        height: 93px;
-        position: relative;
     }
 }
