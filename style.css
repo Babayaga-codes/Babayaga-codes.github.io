@@ -557,7 +557,7 @@ section .title::after {
 }
 
 
-/* responsive media query start */
+/*  media query  */
 
 @media (max-width: 1104px) {
     .about .about-content .left img {
