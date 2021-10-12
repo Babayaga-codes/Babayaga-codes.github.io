@@ -186,11 +186,10 @@ section .title::after {
 .home {
     display: flex;
     background: url("images/hg.JPG") no-repeat;
-    height: 200px;
-    width: 200px;
+    height: 100vh;
     color: navy;
     min-height: 400px;
-    background-size: 800px;
+    background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', Verdana, Geneva, Tahoma, sans-serif;
 }
