@@ -188,7 +188,7 @@ section .title::after {
     background: url("images/hero-bg.jpg") no-repeat;
     height: 100vh;
     color: navy;
-    min-height: 500px;
+    min-height: 400px;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', Verdana, Geneva, Tahoma, sans-serif;
