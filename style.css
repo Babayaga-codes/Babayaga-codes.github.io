@@ -32,7 +32,7 @@ html {
 }
 
 
-/* all similar content styling codes */
+/*  similar content styling codes */
 
 section {
     padding: 100px 0;
@@ -185,7 +185,8 @@ section .title::after {
 
 .home {
     display: flex;
-    background: url("images/hero-bg.jpg") no-repeat;
+    background: url("images/CFIA7009.JPEG");
+    background-repeat: no-repeat;
     height: 100vh;
     color: navy;
     min-height: 400px;
@@ -587,7 +588,7 @@ section .title::after {
         left: -100%;
         top: 0;
         background: #111;
-        text-align: left;
+        text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
     }
