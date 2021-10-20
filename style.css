@@ -537,7 +537,7 @@ section .title::after {
 }
 
 .right form .button-area button {
-    color: #fff;
+    color: red;
     display: block;
     width: 160px!important;
     height: 45px;
@@ -548,7 +548,7 @@ section .title::after {
     cursor: pointer;
     flex-wrap: nowrap;
     background: black;
-    border: 2px solid white;
+    border: 2px solid black;
     transition: all 0.3s ease;
 }
 
@@ -685,4 +685,49 @@ section .title::after {
         font-size: 23px;
         line-height: 38px;
     }
+}
+
+
+/* Style all font awesome icons */
+
+.footer {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* Add a hover effect if you want */
+
+.footer:hover {
+    opacity: 0.7;
+}
+
+
+/* Set a specific color for each brand */
+
+
+/* Facebook */
+
+.footer-facebook {
+    background: black;
+    color: white;
+}
+
+
+/* Twitter */
+
+.footer-twitter {
+    background: black;
+    color: white;
+}
+
+
+/* Instagram */
+
+.footer-instagram {
+    background: black;
+    color: white;
 }
