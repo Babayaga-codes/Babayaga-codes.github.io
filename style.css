@@ -185,7 +185,7 @@ section .title::after {
 
 .home {
     display: flex;
-    background: url("images/MBSXE4000.jpg") no-repeat center;
+    background-color: black;
     background-repeat: no-repeat;
     height: 100vh;
     color: navy;
@@ -715,11 +715,5 @@ footer {
         width: 35px;
         font-size: 23px;
         line-height: 38px;
-    }
-}
-
-@media only screen and ( max-width:600px) {
-    body {
-        background-color: black;
     }
 }
