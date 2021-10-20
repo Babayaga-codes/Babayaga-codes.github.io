@@ -185,14 +185,13 @@ section .title::after {
 
 .home {
     display: flex;
-    background: url("images/MBSXE4000.jpg");
-    background-repeat: no-repeat;
+    background: url("images/MBSXE4000.jpg") no-repeat center;
     height: 100vh;
-    color: navy;
-    min-height: 400px;
+    color: #fff;
+    min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Ubuntu', Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .home .max-width {
