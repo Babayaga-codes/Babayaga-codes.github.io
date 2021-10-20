@@ -185,7 +185,7 @@ section .title::after {
 
 .home {
     display: flex;
-    background-color: black;
+    background: url("images/MBSXE4000.jpg");
     background-repeat: no-repeat;
     height: 100vh;
     color: navy;
