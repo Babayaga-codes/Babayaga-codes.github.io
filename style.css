@@ -497,6 +497,12 @@ footer {
 
 /* adding responsive media query */
 
+div {
+    width: 25%;
+    height: 50%;
+}
+
+
 @media (max-width: 1104px) {
     .about .about-content .left img {
         height: 350px;
