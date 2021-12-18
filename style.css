@@ -189,7 +189,7 @@ section .title::after {
 }
 
 .home .home-content .text-3 span {
-    color: red;
+    color: black;
     font-weight: 500;
 }
 
@@ -208,7 +208,6 @@ section .title::after {
 
 .home .home-content a:hover {
     color: crimson;
-    background: none;
 }
 
 
@@ -310,6 +309,7 @@ section .title::after {
 
 .services .serv-content .card:hover i {
     color: #fff;
+    cursor: pointer;
 }
 
 .services .serv-content .card .text {
@@ -429,6 +429,7 @@ section .title::after {
 .right form .button-area button:hover {
     color: green;
     background: black;
+    cursor: pointer;
 }
 
 
