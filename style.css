@@ -152,7 +152,7 @@ section .title::after {
 .home {
     display: flex;
     background: url("images/MBSXE4000.jpg") no-repeat;
-    height: 100vh;
+    height: 200vh;
     color: darkorange;
     min-height: 400px;
     background-size: cover;
