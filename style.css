@@ -151,7 +151,7 @@ section .title::after {
 
 .home {
     display: flex;
-    background: url("images/Saved Pictures/IMG_E5232.JPG");
+    background: url("images/MBSXE4000.JPG") no-repeat;
     height: 200vh;
     color: darkorange;
     min-height: 400px;
