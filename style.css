@@ -152,11 +152,10 @@ section .title::after {
 .home {
     display: flex;
     background: url("images/MBSXE4000.JPG") no-repeat;
-    height: 200vh;
+    height: 100vh;
     color: darkorange;
-    min-height: 400px;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     font-family: 'Ubuntu', Verdana, Geneva, Tahoma, sans-serif;
 }
 
