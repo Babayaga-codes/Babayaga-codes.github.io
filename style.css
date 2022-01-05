@@ -159,8 +159,15 @@ section .title::after {
     font-family: 'Ubuntu', Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
+.home .img {
+    width: 90%;
+    height: auto;
+}
+
 .home .max-width {
     width: 100%;
+    height:auto;
     display: flex;
 }
 
