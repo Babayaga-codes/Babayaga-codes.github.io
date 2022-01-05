@@ -151,18 +151,17 @@ section .title::after {
 
 .home {
     display: flex;
-    background: url("images/MBSXE4000.JPG") no-repeat;
-    height: 150vh;
+    background: url("images/MBSXE4000.jpg") no-repeat;
+    height: 100vh;
     color: darkorange;
+    min-height: 400px;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     font-family: 'Ubuntu', Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
 .home .max-width {
     width: 100%;
-    height:auto;
     display: flex;
 }
 
@@ -408,7 +407,7 @@ section .title::after {
 .right form .button-area button {
     color: goldenrod;
     display: block;
-    width: 150px;
+    width: 160px!important;
     height: 45px;
     outline: none;
     font-size: 18px;
