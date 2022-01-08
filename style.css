@@ -155,7 +155,7 @@ section .title::after {
     height: 100%;
     position: relative;
     width: 100%;
-    color: green;
+    color: brown;
     min-height: 720px;
     background-size: cover;
     background-attachment: scroll;
