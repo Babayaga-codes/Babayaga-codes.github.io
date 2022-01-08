@@ -5,9 +5,15 @@ body {
     padding: 0;
 }
 
+section {
+position: relative;
+z-index: -1;
+padding-top:60px;
+}
+
+
 
 nav { 
-    z-index: 1;
     width: 100% ;
     text-align: center;
     background-color: black;
