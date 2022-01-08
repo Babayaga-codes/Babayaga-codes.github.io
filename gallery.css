@@ -74,7 +74,7 @@ footer {
 
 .gallery li img {
     display: block;
-    height: 170px;
+    height: 150px;
     width: auto;
     transition: all 0.4s;
 }
