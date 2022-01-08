@@ -155,7 +155,7 @@ section .title::after {
     height: 100%;
     position: relative;
     width: 100%;
-    color: darkorange;
+    color: black;
     min-height: 720px;
     background-size: cover;
     background-attachment: scroll;
@@ -188,7 +188,7 @@ section .title::after {
 }
 
 .home .home-content .text-3 span {
-    color: black;
+    color: goldenrod;
     font-weight: 500;
 }
 
