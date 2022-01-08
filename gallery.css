@@ -1,7 +1,7 @@
 /**nav bar styling**/
 
 body {
-    margin: 10px;
+    margin: 0;
     padding: 0;
 }
 
@@ -35,7 +35,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100%;
+    height:100%;
 }
 
 body {
@@ -74,7 +74,7 @@ footer {
 
 .gallery li img {
     display: block;
-    height: 150px;
+    height: 100px;
     width: auto;
     transition: all 0.4s;
 }
