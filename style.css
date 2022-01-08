@@ -150,13 +150,16 @@ section .title::after {
 /* home section styling */
 
 .home {
-    display: flex;
-    background: url("images/MBSXE4000.JPG") no-repeat;
-    height: 150vh;
+    display: table;
+    background: url("images/MBSXE4000.JPG") no-repeat center;
+    height: 100%;
+    position: relative;
+    width: 100%;
     color: darkorange;
-    min-height: 400px;
+    min-height: 720px;
     background-size: cover;
     background-attachment: scroll;
+    text-align: center;
     font-family: 'Ubuntu', Verdana, Geneva, Tahoma, sans-serif;
 }
 
