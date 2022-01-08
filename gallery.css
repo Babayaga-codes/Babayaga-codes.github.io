@@ -5,10 +5,20 @@ body {
     padding: 0;
 }
 
-nav {
+
+
+section {
+position: relative;
+z-index: -1;
+padding-top:60px;
+}
+
+nav { z-index: 1;
+    width: 100% ;
     text-align: center;
     background-color: black;
     padding: 20px;
+    min-height: 30px ;
 }
 
 nav a {
@@ -74,7 +84,7 @@ footer {
 
 .gallery li img {
     display: block;
-    height: 100px;
+    height: 150px;
     width: auto;
     transition: all 0.4s;
 }
