@@ -1,34 +1,44 @@
         /**nav bar styling**/
 
-body   
-{  
-height: 125vh;  
-margin-top: 80px;  
-padding: 30px;  
-background-size: cover;  
-font-family: sans-serif;  
-}  
-header {  
-background-color: black;  
-position: fixed;  
-left: 0;  
-right: 0;  
-top: 5px;  
-height: 30px;  
-display: flex;  
-align-items: center;  
-box-shadow: 0 0 25px 0 black;  
-}  
-header * {  
-display: inline;  
-}  
-header li {  
-margin: 20px;  
-}  
-header li a {  
-color: blue;  
-text-decoration: none;  
-}     
+ul {
+    background: #F5F5F5;
+    display: table;
+    margin: 60px auto;
+    padding: 0px 20px;
+    border-radius: 8px;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+ul li a {
+    font-family: arial;
+    color: #ff9800;
+    text-decoration: none;
+    position: relative;
+    padding: 15px 10px;
+    font-size: 18px;
+    display: block;
+}
+ul li a + a {
+    margin-left: 16px;
+}
+ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 2px;
+    background-color: #607D8B;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease;
+    transform: scaleX(0);
+}
+ul a:hover::after {
+    transform-origin: bottom left;
+    transform: scaleX(1);
+}
 
         /**nav bar styling ends**/
         /**styling the body  and gallery**/
