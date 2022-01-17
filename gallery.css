@@ -1,7 +1,7 @@
         /**nav bar styling**/
 
 ul {
-    background: #F5F5F5;
+    background: black;
     display: table;
     margin: 60px auto;
     padding: 0px 20px;
@@ -13,7 +13,7 @@ ul li {
 }
 ul li a {
     font-family: arial;
-    color: white;
+    color: goldenrod;
     text-decoration: none;
     position: relative;
     padding: 15px 10px;
