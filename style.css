@@ -212,13 +212,13 @@ section .title::after {
 /* about section styling */
 
 .about .about-content .left {
-    width: 50%;
+    width: 40%;
 }
 
 .about .about-content .left img {
     height: 400px;
     width: 400px;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 .about .about-content .right {

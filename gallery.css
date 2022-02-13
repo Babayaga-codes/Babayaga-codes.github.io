@@ -1,0 +1,58 @@
+        /**nav bar styling**/
+        
+        .nav {
+            position: relative;
+            text-align: center;
+            background-color: black;
+            padding: 20px;
+        }
+        
+        .nav a {
+            font-size: 20px;
+            text-decoration: none;
+            color: white;
+            margin: 10px 50px 10px 50px;
+            transition: 0.3s;
+            display: block;
+        }
+        
+        .nav a:hover {
+            font-size: 27.5px;
+            color: goldenrod;
+            background-color: black;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        /**nav bar styling ends**/
+        /**styling the body  and gallery**/
+        
+        body {
+            background: #111;
+        }
+        
+        img {
+            width: 100%;
+        }
+        
+        .photo-grid-container {
+            column-count: 5;
+            column-width: 300px;
+        }
+        
+        .photo-grid-item {
+            margin: 0 auto 15px;
+            max-width: 400px;
+            width: 100%;
+        }
+        
+        img:hover {
+            filter: none;
+        }
+        
+        img {
+            filter: grayscale(100%);
+        }
+        
+        img {
+            transition: filter 2s;
+        }
