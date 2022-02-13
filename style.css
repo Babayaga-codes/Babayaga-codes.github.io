@@ -462,6 +462,13 @@ footer {
 }
 
 
+/* github */
+
+.fa-github {
+    color: goldenrod;
+}
+
+
 /* adding responsive media query */
 
 @media (max-width: 1104px) {
