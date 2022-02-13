@@ -132,14 +132,14 @@ section .title::after {
 }
 
 .navbar.sticky .menu li a:hover {
-    color: black;
+    color: #fff;
 }
 
 
 /* menu btn styling */
 
 .menu-btn {
-    color: #fff;
+    color: black;
     font-size: 23px;
     cursor: pointer;
     display: none;
