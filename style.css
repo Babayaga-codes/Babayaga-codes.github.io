@@ -42,7 +42,6 @@ section {
 
 .about,
 .services,
-.skills,
 .teams,
 .contact,
 footer {
@@ -151,11 +150,11 @@ section .title::after {
 
 .home {
     display: table;
-    background: url("images/MBSXE4000.JPG") no-repeat center;
+    background: url("images/overlay-bg.jpg") no-repeat center;
     height: 100%;
     position: relative;
     width: 100%;
-    color: darkorange;
+    color: yellow;
     min-height: 720px;
     background-size: cover;
     background-attachment: scroll;
@@ -206,24 +205,24 @@ section .title::after {
 }
 
 .home .home-content a:hover {
-    color: crimson;
+    color: goldenrod;
 }
 
 
 /* about section styling */
 
 .about .about-content .left {
-    width: 45%;
+    width: 50%;
 }
 
 .about .about-content .left img {
     height: 400px;
     width: 400px;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 
 .about .about-content .right {
-    width: 55%;
+    width: 50%;
 }
 
 .about .about-content .right .text {
@@ -233,7 +232,7 @@ section .title::after {
 }
 
 .about .about-content .right .text span {
-    color: crimson;
+    color: yellow;
 }
 
 .about .about-content .right p {
