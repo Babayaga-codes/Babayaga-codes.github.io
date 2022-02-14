@@ -99,7 +99,7 @@ section .title::after {
     z-index: 999;
     padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
 }
 
 .navbar.sticky {
@@ -140,7 +140,7 @@ section .title::after {
 
 .menu-btn {
     color: crimson;
-    font-size: 25px;
+    font-size: 30px;
     cursor: pointer;
     display: none;
 }
