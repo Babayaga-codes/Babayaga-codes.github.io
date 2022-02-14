@@ -42,7 +42,7 @@ section {
 
 .about,
 .services,
-.teams,
+.home,
 .contact,
 footer {
     font-family: 'Poppins', sans-serif;
@@ -140,7 +140,7 @@ section .title::after {
 
 .menu-btn {
     color: goldenrod;
-    font-size: 23px;
+    font-size: 25px;
     cursor: pointer;
     display: none;
 }
