@@ -139,7 +139,7 @@ section .title::after {
 /* menu btn styling */
 
 .menu-btn {
-    color: goldenrod;
+    color: crimson;
     font-size: 25px;
     cursor: pointer;
     display: none;
