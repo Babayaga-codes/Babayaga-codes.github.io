@@ -135,6 +135,26 @@ section .title::after {
     color: #fff;
 }
 
+a.btn {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: black;
+    border: 2px solid crimson;
+}
+
+.btn:hover {
+    background: transparent;
+    border-color: goldenrod;
+    color: crimson;
+}
+
 
 /* menu btn styling */
 
@@ -193,8 +213,8 @@ section .title::after {
 
 .home .home-content a {
     display: inline-block;
-    background: #fff;
-    color: #000;
+    background: transparent;
+    color: crimson;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
@@ -205,59 +225,13 @@ section .title::after {
 }
 
 .home .home-content a:hover {
-    color: goldenrod;
+    color: green;
 }
 
 
 /* about section styling */
 
-.about .about-content .left {
-    width: 40%;
-}
-
-.about .about-content .left img {
-    height: 400px;
-    width: 400px;
-    border-radius: 6px;
-}
-
-.about .about-content .right {
-    width: 50%;
-}
-
-.about .about-content .right .text {
-    font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-
-.about .about-content .right .text span {
-    color: goldenrod;
-}
-
-.about .about-content .right p {
-    text-align: justify;
-}
-
-.about .about-content .right a {
-    display: inline-block;
-    background: crimson;
-    color: white;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 10px 30px;
-    margin-top: 20px;
-    border-radius: 6px;
-    border: 2px solid crimson;
-    transition: all 0.3s ease;
-}
-
-.about .about-content .right a:hover {
-    color: crimson;
-    background: none;
-}
-
-
+.
 /* services section styling */
 
 .services,
