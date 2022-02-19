@@ -317,36 +317,30 @@ section>h1 {
     font-size: 3em;
 }
 
-
-}
-@media (max-width: 991px) {
-    .max-width {
-        padding: 0 50px;
-    }
-}
-@media (max-width: 947px) {
-    .menu-btn {
-        display: block;
-        z-index: 999;
-    }
-}
 .fa-facebook {
     color: goldenrod;
 }
 
+
 /* Twitter */
+
 .fa-twitter {
     color: goldenrod;
 }
 
+
 /* Instagram */
+
 .fa-instagram {
     color: goldenrod;
 }
 
+
 /* github */
+
 .fa-github {
     color: goldenrod;
 }
+
 
 }
