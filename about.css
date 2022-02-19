@@ -141,21 +141,21 @@ P: white
         background-image: url("images/IMG_1168.JPG");
         background-repeat: no-repeat;
         background-size: cover;
-        padding: 7em 0;
+        padding: 6em 0;
     }
     
     .masthead>img {
         max-height: 6em;
-        border-radius: 150%;
+        border-radius: 100%;
         display: block;
         margin: 0 auto;
-        border: 4px;
+        border: 4px solid black;
     }
     
     .masthead-intro {
         margin-bottom: 0.1em;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 3em;
+        font-size: 2em;
         color: goldenrod;
     }
     
@@ -177,7 +177,6 @@ P: white
         margin-left: auto;
         margin-right: auto;
         margin-top: 2em;
-        text-align: center;
     }
     
     .questions {
@@ -290,17 +289,6 @@ P: white
         .masthead-heading {
             font-size: 3em;
         }
-    }
-    
-    .content-footer,
-    .introduction,
-    .location,
-    .questions {
-        max-width: 38em;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 2em;
-        text-align: center;
     }
     
     .fa-facebook {
