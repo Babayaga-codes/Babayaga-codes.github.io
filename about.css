@@ -271,7 +271,7 @@ P: white
         .introduction>p,
         .location>p,
         .content-footer>p {
-            font-weight: 300;
+            font-weight: 150;
             letter-spacing: 0.05em;
             text-align: center;
         }
@@ -279,11 +279,11 @@ P: white
             /*margin-top: -1em;*/
         }
         .box:nth-child(1n+2) {
-            border-top: 3px solid #a1a1a1;
+            border-top: 3px solid black;
             padding-top: 3em;
         }
         .box {
-            display: block;
+            display: flex;
             width: 75%;
             padding-left: 2em;
             padding-top: 0;
