@@ -64,6 +64,7 @@ P: white
     .content-footer>p {
         font-weight: 300;
         letter-spacing: 0.05em;
+        text-align: center;
     }
     
     .questions>h2 {
@@ -267,6 +268,13 @@ P: white
      -------------------------*/
     
     @media only screen and (max-width: 500px) {
+        .introduction>p,
+        .location>p,
+        .content-footer>p {
+            font-weight: 300;
+            letter-spacing: 0.05em;
+            text-align: center;
+        }
         .img-responsive {
             /*margin-top: -1em;*/
         }
