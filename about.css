@@ -301,7 +301,7 @@
   }
   
   .box {
-      display: flex;
+      display: box;
       width: 75%;
       padding-left: 2em;
       padding-top: 0;
