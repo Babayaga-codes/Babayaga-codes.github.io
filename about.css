@@ -264,6 +264,7 @@
           .social>li {
               display: inline-block;
               padding-right: 1em;
+              color: goldenrod;
           }
           
           .content-footer>p {
