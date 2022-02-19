@@ -260,14 +260,12 @@
      -------------------------*/
     
     @media only screen and (max-width: 500px) {
-       body {
-
-  
     .starcontainerportfolio>h2 {
         text-align: center;
         font-size: 2.8em;
         margin-bottom: 0.2em;
     }
+}
 
         .img-responsive {
             /*margin-top: -1em;*/
@@ -288,17 +286,9 @@
         .masthead {
             padding: 3em 0;
         }
-        .masthead-heading {
-            font-size: 3em;
-        }
+       
     }
-      @media only screen and (max-width: 600px) {
-.sidebar {
-float: none;
-width: 100%;
-}
-}
-
+  
 
 
     .fa-facebook {
