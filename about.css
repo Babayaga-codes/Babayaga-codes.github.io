@@ -300,12 +300,12 @@
       padding-top: 3em;
   }
   
-  .box {
-      display: box;
-      width: 75%;
-      padding-left: 2em;
-      padding-top: 0;
-  }
+ 
+       .box {
+      float: left;
+      width: 31%;
+      margin: 1% 1% 93px 1%;
+     }
   
   .content-footer {
       font-size: 0.8em;
