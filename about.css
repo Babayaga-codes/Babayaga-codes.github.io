@@ -286,16 +286,7 @@
           Media query
      -------------------------*/
   
-  @media only screen and (max-width: 991px) {
-      .introduction>p,
-      .location>p,
-      .content-footer>p {
-          font-size: 0.2em;
-          letter-spacing: 0.05em;
-         
-      }
-  }
-  
+  @media only screen and (max-width: 991px) { 
   .box:nth-child(1n+2) {
       border-top: 3px solid black;
       padding-top: 3em;
