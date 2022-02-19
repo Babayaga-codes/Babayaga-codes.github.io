@@ -1,13 +1,4 @@
-    /*****color
-Body: #222222
-Border: #a1a1a1
-Footer bg: #282828
-Link: #a1a1a1
-P: white
-*****/
-    /* -------------------------
-    Typography Declarartions
-   -------------------------*/
+
     /* navbar styling */
     
     .navbar {
@@ -71,6 +62,7 @@ P: white
         font-family: "Gentium Book Basic", Georgia, serif;
         font-size: 1.2em;
         font-weight: bold;
+        Text-align: center;
     }
     /* -------------------------
         Link Styles
