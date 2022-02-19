@@ -1,4 +1,4 @@
-          .navbar {
+      .navbar {
               position: fixed;
               top: 0%;
               left: 0%;
@@ -293,12 +293,6 @@
                   border-top: 3px solid black;
                   padding-top: 3em;
               }
-              .box {
-                  display: flex;
-                  width: 75%;
-                  padding-left: 2em;
-                  padding-top: 0;
-              }
               .content-footer {
                   font-size: 0.8em;
               }
@@ -321,44 +315,24 @@
                   display: block;
                   z-index: 999;
               }
-              .menu-btn i.active:before {
-                  content: "\f00d";
-              }
-              .navbar .menu {
-                  position: fixed;
-                  height: 100vh;
-                  width: 100%;
-                  left: -100%;
-                  top: 0;
-                  background: #111;
-                  text-align: center;
-                  padding-top: 80px;
-                  transition: all 0.3s ease;
-              }
-              .navbar .menu.active {
-                  left: 0;
-              }
-              .navbar .menu li {
-                  display: block;
-              }
-              .navbar .menu li a {
-                  display: inline-block;
-                  margin: 20px 0;
-                  font-size: 25px;
-              }
-              .fa-facebook {
-                  color: goldenrod;
-              }
-              /* Twitter */
-              .fa-twitter {
-                  color: goldenrod;
-              }
-              /* Instagram */
-              .fa-instagram {
-                  color: goldenrod;
-              }
-              /* github */
-              .fa-github {
-                  color: goldenrod;
-              }
           }
+          
+          .fa-facebook {
+              color: goldenrod;
+          }
+          /* Twitter */
+          
+          .fa-twitter {
+              color: goldenrod;
+          }
+          /* Instagram */
+          
+          .fa-instagram {
+              color: goldenrod;
+          }
+          /* github */
+          
+          .fa-github {
+              color: goldenrod;
+          }
+      }
