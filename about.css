@@ -97,10 +97,10 @@ a.nav-item:hover {
         background-color: black;
     }
     .nav-toggle:hover {
-        background-color: crimson;
+        background-color: black;
     }
     .nav-toggle span {
-        background-color: black;
+        background-color: crimson;
     }
     .nav-toggle span:hover {
         background-color: black;
