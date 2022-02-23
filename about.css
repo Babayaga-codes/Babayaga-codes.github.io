@@ -90,49 +90,6 @@ a.nav-item:hover {
 }
 
 
-/* styling of footer */
-
-footer {
-    padding: 30px;
-    text-align: center;
-    font-size: 30px;
-}
-
-
-/* footer styling ends */
-
-
-/* choosing specific color for social media icons in footer */
-
-
-/* Facebook */
-
-.fa-facebook {
-    color: goldenrod;
-}
-
-
-/* Twitter */
-
-.fa-twitter {
-    color: goldenrod;
-}
-
-
-/* Instagram */
-
-.fa-instagram {
-    color: goldenrod;
-}
-
-
-/* github */
-
-.fa-github {
-    color: goldenrod;
-}
-
-
 /* footer styling ends */
 
 @media screen and (max-width: 768px) {
@@ -140,12 +97,12 @@ footer {
         background-color: #063647;
     }
     .nav-toggle:hover {
-        background-color: transparent;
+        background-color: goldenrod;
     }
     .nav-toggle span {
-        background-color: #dfdfdf;
+        background-color: white;
     }
     .nav-toggle span:hover {
-        background-color: #fff;
+        background-color: black;
     }
 }
